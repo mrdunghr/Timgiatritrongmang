@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm giá trị trong mảng</title>
+</head>
+<body>
+</body>
+<script>
+    let value = prompt("nhập giá trị cần tìm: ");
+    let array = ['Tôi', 'Là', 'Ai', 'Thế','Nhỉ?'];
+    // console.log(array)
+    for (let i = 0; i <= array.length; i++){
+        // console.log(array[i])
+        if (value == array[i]){
+            alert('Phần tử này số - ' + i + ' - và có index là ' + array[i]);
+            break;
+        } else if (value != array[i]){
+            let value = prompt("nhập giá trị cần tìm: ");
+        }
+    }
+</script>
+</html>
